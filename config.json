@@ -1,0 +1,19 @@
+{
+  "hotTierRetentionDays": 15,
+  "hotTierSnapshotIntervalMinutes": 30,
+  "coldStoragePath": "./cold-storage",
+  "walPath": "./wal",
+  "snapshotPath": "./snapshots",
+  "indexedFields": [
+    "level",
+    "service",
+    "userId",
+    "traceId",
+    "message"
+  ],
+  "maxHotTierMemoryMB": 1024,
+  "compactionIntervalHours": 6,
+  "timestampField": "creationTimestamp",
+  "timestampFormat": "ISO8601",
+  "timestampBaseline": null
+}
